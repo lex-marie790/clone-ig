@@ -16,9 +16,8 @@ const Posts = (props) => {
             key = {post.id}
             post = {post}
             likePost = {likePost}
-            post = {post}
             comments = {posts.comments}
-            numberLikes = {post.likes}
+            numberOfLikes = {post.likes}
           />
         )
       })}
